@@ -1,0 +1,10 @@
+SET(SOURCES components/ui_comp_button.c
+    components/ui_comp.c
+    screens/ui_Screen2.c
+    screens/ui_ScreenSetFreq.c
+    screens/ui_ScreenSetDuty.c
+    ui.c
+    components/ui_comp_hook.c
+    ui_helpers.c)
+
+add_library(ui ${SOURCES})
